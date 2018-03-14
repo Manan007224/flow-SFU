@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Calender</title>
+	<link href="Assets/jquery-ui.min.css" rel="stylesheet"/>
+	<link href="Assets/fullcalendar.css" rel="stylesheet"/>
+	<script src='Assets/lib/jquery.min.js'></script>
+	<script src='Assets/lib/moment.min.js'></script>
+	<script src='Assets/fullcalendar.js'></script>
+	<script type="text/javascript" src="data.json"></script>
+	<script src='index.js'></script>
+
+</head>
+<body>
+	<h1>The NEW Calender</h1>
+	<div id ='calendar'></div>
+</body>
+<style>
+	.fc-title {
+	font-size: 11px !important;
+}
+
+.fc-event{
+	cursor: pointer;
+}
+
+.fc-content:hover + .fc-bg, .fc-bg:hover{
+	opacity: 0.6;
+}
+
+table tbody tr{
+	height: 30px !important;
+}
+
+body {
+	margin: 40px 10px;
+	padding: 0;
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	font-size: 14px;
+}
+
+#calendar {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+</style>
+</html>
+
+
+
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "sfu_easy",
+  "version": "1.0.0",
+  "description": "simple automated course schedule calender",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manan007224/sfu_easy.git"
+  },
+  "author": "Manan Maniyar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manan007224/sfu_easy/issues"
+  },
+  "homepage": "https://github.com/Manan007224/sfu_easy#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "python-shell": "^0.5.0"
+  }
+}
